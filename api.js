@@ -84,7 +84,9 @@ app.get('/api/resenas/buscar/query', async (req, res) => {
 
     if (valoracion) {
       const minValoracion = parseInt(valoracion);
-      resenas = resenas.filter(r => r.valoracion >= minValoracion);
+      if (!isNaN(minValoracion)) {
+        resenas = resenas.filter(r => r.valoracion >= minValoracion);
+      }
     }
 
     res.json(resenas);
@@ -161,7 +163,7 @@ app.put('/api/resenas/:id', async (req, res) => {
     // Actualizar solo los campos proporcionados
     if (autores) resenas[index].autores = autores;
     if (titulo) resenas[index].titulo = titulo;
-    if (serie !== undefined) resenas[index].serie = serie;
+    if (serie !== undefined) resenas[index].serie = serie || 'N/A';
     if (valoracion !== undefined) resenas[index].valoracion = valoracion;
     if (comentarios !== undefined) resenas[index].comentarios = comentarios;
 

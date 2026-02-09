@@ -1,7 +1,7 @@
 {
   "name": "libreria",
   "version": "1.0.0",
-  "description": "catalo de libros y reseñas",
+  "description": "catálogo de libros y reseñas",
   "main": "api.js",
   "scripts": {
     "start": "node api.js",
