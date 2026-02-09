@@ -1,0 +1,25 @@
+{
+  "name": "libreria",
+  "version": "1.0.0",
+  "description": "catalo de libros y reseñas",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobVivo/libreria.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RobVivo/libreria/issues"
+  },
+  "homepage": "https://github.com/RobVivo/libreria#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
