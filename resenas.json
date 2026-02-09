@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "autores": [
+      "Gabriel García Márquez"
+    ],
+    "titulo": "Cien años de soledad",
+    "serie": "N/A",
+    "valoracion": 5,
+    "comentarios": "Una obra maestra del realismo mágico"
+  },
+  {
+    "id": 2,
+    "autores": [
+      "Isabel Allende"
+    ],
+    "titulo": "La casa de los espíritus",
+    "serie": "N/A",
+    "valoracion": 5,
+    "comentarios": "¡Una de las mejores novelas que he leído!"
+  },
+  {
+    "id": 3,
+    "autores": [
+      "Jorge Luis Borges"
+    ],
+    "titulo": "Ficciones",
+    "serie": "N/A",
+    "valoracion": 5,
+    "comentarios": "Obra maestra de la literatura argentina"
+  }
+]
